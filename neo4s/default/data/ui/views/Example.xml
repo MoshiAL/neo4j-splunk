@@ -16,6 +16,10 @@
       <label>Password</label>
       <default></default>
     </input>
+    <input type="text" token="database">
+      <label>Database Name</label>
+      <default></default>
+    </input>
   </fieldset>
   <row>
     <panel>
