@@ -32,7 +32,7 @@ Using different database:
 ```
 
 ## How it looks in splunk
-![screenshot][static/neo4j_command_example.png]
+![screenshot](static/neo4j_command_example.png)
 
 ## Options
 - <b>`host`</b> <i>(required)</i>: Hostname + graph port (port is optional)
