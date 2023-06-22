@@ -38,7 +38,7 @@ class Neo4jCommand(GeneratingCommand):
             try:
                 parameters = json.loads(query_params)
             except ValueError as e:
-                raise ValueError(e)
+                raise ValueError(f"Error in query params dict: {e}")
 
         with driver.session(database=database) as session:
             results = list(session.run(query, parameters=parameters))
